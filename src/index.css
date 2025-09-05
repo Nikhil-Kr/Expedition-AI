@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add these lines to apply the fonts globally */
+body {
+    @apply font-sans; /* Sets the default body font to Asap */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display; /* Sets the heading font to Manrope */
+  }
